@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/* Sharingggggggggggggggggggggggggggggggggggggggggggggggggggggg */
+.not,
+.nav-item .nav-link:hover,
+.home,
+form .btn {
+  background-color: #1abc9c;
+}
+.navbar {
+  z-index: 999999999999999999999;
+}
+/* NotFound Pageeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee */
+.not {
+  font-size: 100px !important;
+}
+.fa-triangle-exclamation {
+  font-size: 100px;
+}
+/* Navbar Pageeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee */
+.navbar,
+.footer {
+  background-color: #2c3e50;
+}
+.navbar-brand,
+.nav-link,
+.end-home {
+  font-family: "Roboto", sans-serif;
+}
+.nav-item .nav-link:hover {
+  border-radius: 10px;
+}
+/* Home Pageeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee */
+.arrow {
+  background-color: white;
+  width: 70px;
+  height: 4px;
+}
+/* Footer Pageeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee */
+h3 {
+  font-size: 28px;
+  line-height: 33.6px;
+  margin: 0px 0px 8px;
+  padding: 20px 0px 0px;
+}
+li {
+  list-style: none;
+}
+.fa-brands,
+.fa-globe {
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 10px;
+}
+.end-footer {
+  background-color: #1a252f;
+  padding: 10px;
+  color: white;
+}
+/* About Pageeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee */
+.about {
+  background-color: #1abc9c;
+}
+/* Protofoil Pageeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee */
+h2 {
+  padding-top: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 0px 0px 16px;
+}
+.poroto {
+  background-color: #1a252f;
+  width: 70px;
+  height: 4px;
+}
+.layer {
+  background-color: #1abc9ce6;
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.6s opacity;
+}
+.layer:hover {
+  opacity: 1;
+}
+label {
+  color: var(--main-color);
+  margin-bottom: 7px;
+  transition: 0.6s top;
+}
